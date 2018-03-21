@@ -1,15 +1,39 @@
 h1 {
 	color: white;
 	font-size: 36px;
-	font-family: "Kaushan Script";
+	font-family: 'Kaushan Script', Times, serif;
+}
+
+h2, div#cabecalho h2 {
+	font-size: 24px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
-	color: white;	
-	font-size: 24px;
-	font-family: Times New Roman, Times, serif;
+	color: black;
+}
+
+div#cabecalho h2 {
+	color: white;
 }
 
 #cabecalho {
 	background-color: #6175f0;
 }
+
+#verdade {
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.referencia {
+	font-style: italic;
+}
+
+div#verdade img {
+	width: 310px;
+}
+
+div#verdade p {
+	float: right;
+} 
