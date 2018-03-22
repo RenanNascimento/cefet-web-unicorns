@@ -1,14 +1,14 @@
 h1 {
 	color: white;
 	font-size: 36px;
-	font-family: 'Kaushan Script', Times, serif;
+	font-family: 'Kaushan Script', cursive;
 	margin-top: 0px;
 	padding-top: 20px;
 }
 
 h2, div#cabecalho h2 {
 	font-size: 24px;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Times New Roman', FreeSerif;
 }
 
 h2 {
@@ -23,11 +23,12 @@ div#cabecalho h2 {
 #cabecalho {
 	background-color: #6175f0;
 	padding-left: 34px;
+	padding-top: 20px;
 }
 
 #verdade {
 	font-size: 14px;
-	font-family: Arial;
+	font-family: Arial, FreeSans, sans-serif;
 }
 
 .referencia {
@@ -42,10 +43,11 @@ div#verdade img {
 
 h3 {
 	font-size: 18px;
-	font-family: Times;
+	font-family: Times, FreeSerif;
 }
 
 div#hoje {
+	box-sizing: border-box;
 	width: 405px;
 	background-color: #f8cef7;
 	border: 1px solid #ff56fb;
@@ -62,9 +64,10 @@ div#hoje img {
 
 div#musica {
 	margin-left: 12px;
+	clear: left;
 }
 
-div#musica p:nth-child(2n+1) {
+div#musica > p:nth-child(2n+1) {
 	margin-left: 34px;
 }
 
@@ -79,4 +82,12 @@ div.destacado {
 
 div#hoje h2:first-child {
 	margin-top: 0px;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+audio {
+	padding-top: 10px;
 }
